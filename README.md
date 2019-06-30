@@ -68,6 +68,35 @@ you have a db named "books" and update host, password and db credentials in
 
 ```
 
+##Project Coverage
+```
+The coverage has been taken from coverage utility from python,
+to see a more detailed version of coverage see [Unit Testing] section.
+
+Module	statements	missing	excluded	coverage
+Total	286	4	0	99%
+backend/src/__init__.py	0	0	0	100%
+backend/src/apis/__init__.py	0	0	0	100%
+backend/src/apis/books_nm.py	23	0	0	100%
+backend/src/apis/books_third_party_nm.py	8	0	0	100%
+backend/src/apiv1.py	3	0	0	100%
+backend/src/app.py	20	2	0	90%
+backend/src/logging_config.py	1	0	0	100%
+backend/src/models/__init__.py	0	0	0	100%
+backend/src/models/abstract_response.py	6	0	0	100%
+backend/src/models/book_external_api_model.py	11	0	0	100%
+backend/src/models/books_model.py	11	0	0	100%
+backend/src/models/error_response.py	6	0	0	100%
+backend/src/models/messages.py	3	0	0	100%
+backend/src/models/response.py	13	0	0	100%
+backend/src/service/__init__.py	0	0	0	100%
+backend/src/service/books_service.py	152	2	0	99%
+backend/src/settings.py	0	0	0	100%
+backend/src/utils/__init__.py	0	0	0	100%
+backend/src/utils/common_utils.py	9	0	0	100%
+backend/src/utils/response_utils.py	20	0	0	100%
+```
+
 ## Unit Testing/Development
 
 Before development, ensure that the unit tests are passing. To run them
@@ -89,6 +118,8 @@ $ bookapi/htmlcov/index.html
 ## API Supported
 
 The development web server runs on localhost and port 5000. The examples assumes they are hosted at http://127.0.0.1:5000/ and would not use it further in the examples and would only use endpoints
+
+You may use a client like POSTMAN to test these apis.
 
 ```
 HTTP METHOD: GET
