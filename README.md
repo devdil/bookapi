@@ -60,6 +60,10 @@ In production, you would have a file from a keystore and deploy it.
 
 ```bash
 
+You wouldn't require to setup any database since I have a test database running on
+an aws server. But if you wish to setup your own follow below:
+
+
 For test purpose, the test database is a mongodb instance running on aws
 If you want to run your instance, make sure your mongo instance
 you have a db named "books" and update host, password and db credentials in 
