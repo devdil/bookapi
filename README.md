@@ -19,6 +19,7 @@ BookAPI is a sample python api development project to learn about flask developm
     $ source bookapi/bin/activate
     $ cd bookapi
     $ pip install -r ./backend/src/requirements.txt
+    $ chmod +x ./setup.sh ./run_tests.sh
     $ source ./setup.sh
     $ python ./backend/src/app.py
     
