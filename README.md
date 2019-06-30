@@ -56,7 +56,7 @@ In production, you would have a file from a keystore and deploy it.
 ```
 
 
-##Database
+## Database
 
 ```bash
 
@@ -68,7 +68,7 @@ you have a db named "books" and update host, password and db credentials in
 
 ```
 
-##Project Coverage
+## Project Coverage
 ```
 The coverage has been taken from coverage utility from python,
 to see a more detailed version of coverage see [Unit Testing] section.
